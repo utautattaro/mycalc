@@ -5,7 +5,7 @@
       <b-input-group-prepend is-text><b>＋</b></b-input-group-prepend>
       <b-form-input type="number" v-model="b"></b-form-input>
       <b-input-group-append is-text><b>＝</b></b-input-group-append>
-      <b-input-group-append is-text><b>{{parseInt(a,10) + parseInt(b,10)</b></b-input-group-append>
+      <b-input-group-append is-text><b>{{parseInt(a,10) + parseInt(b,10)}}</b></b-input-group-append>
     </b-input-group>
   </b-container>
 </template>
